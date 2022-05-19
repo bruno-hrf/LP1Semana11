@@ -32,7 +32,10 @@ namespace TicTacToeMVC
             Console.WriteLine("     |     |      ");
             Console.WriteLine("  {0}  |  {1}  |  {2}", arr[7], arr[8], arr[9]);
             Console.WriteLine("     |     |      ");
+        }
 
+        public void ShowWinner()
+        {
             if (flag == 1)
             // if flag value is 1 then someone has win or
             //means who played marked last time which has win
